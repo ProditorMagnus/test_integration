@@ -12,4 +12,7 @@
    <target name="compile" depends="prepare">
      <javac srcdir="${sourceDir}" destdir="${outputDir}" />
    </target>
+   <target name="test" depends="prepare">
+     <javac srcdir="${sourceDir}" destdir="${outputDir}" />
+   </target>
 </project>
