@@ -1,6 +1,6 @@
 <project name="simpleCompile" default="compile" basedir=".">
    <target name="init">
-      <property name="sourceDir" value="src"/ >
+      <property name="sourceDir" value="src" />
       <property name="outputDir" value="out" />
    </target>
    <target name="clean" depends="init">
